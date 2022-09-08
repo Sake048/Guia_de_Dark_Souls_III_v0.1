@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.ks.guiadedarksoulsiii.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+    <activity
+        android:id="@+id/nav_guia"
+        android:name="com.ks.guiadedarksoulsiii.Guia"
+        android:label="@string/menu_guia"
+        tools:layout="@layout/activity_guia" />
+    <fragment
+        android:id="@+id/nav_almas"
+        android:name="com.ks.guiadedarksoulsiii.Almas"
+        android:label="@string/menu_almas"
+        tools:layout="@layout/fragment_almas_list" />
+    <fragment
+        android:id="@+id/nav_armaduras_anillos"
+        android:name="com.ks.guiadedarksoulsiii.armaduras_anillos"
+        android:label="@string/menu_armaduras_anillos"
+        tools:layout="@layout/fragment_armaduras_anillos" />
+    <fragment
+        android:id="@+id/nav_armas_escudos"
+        android:name="com.ks.guiadedarksoulsiii.armas_escudos"
+        android:label="@string/menu_armas_escudos"
+        tools:layout="@layout/fragment_armas_escudos" />
+    <fragment
+        android:id="@+id/nav_conjuros"
+        android:name="com.ks.guiadedarksoulsiii.conjuros"
+        android:label="@string/menu_conjuros"
+        tools:layout="@layout/fragment_conjuros" />
+
+</navigation>
