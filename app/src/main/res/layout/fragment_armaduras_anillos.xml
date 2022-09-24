@@ -3,12 +3,68 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".armaduras_anillos">
+    tools:context=".armaduras_anillos"
+    android:id="@+id/frameLayout">
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
+
+    <com.google.android.material.tabs.TabLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        tools:layout_conversion_absoluteHeight="48dp"
+        tools:layout_conversion_absoluteWidth="396dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_Cabeza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cabeza"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="0dp"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_Pecho"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pecho"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="0dp"
+            tools:layout_editor_absoluteX="79dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_Manos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Manos"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="0dp"
+            tools:layout_editor_absoluteX="158dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_Piernas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piernas"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="0dp"
+            tools:layout_editor_absoluteX="238dp"
+            tools:layout_editor_absoluteY="0dp" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_Anillos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Anillos"
+            tools:layout_conversion_absoluteHeight="0dp"
+            tools:layout_conversion_absoluteWidth="0dp"
+            tools:layout_editor_absoluteX="317dp"
+            tools:layout_editor_absoluteY="0dp" />
+    </com.google.android.material.tabs.TabLayout>
+
 
 </FrameLayout>

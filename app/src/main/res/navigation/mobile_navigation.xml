@@ -10,11 +10,6 @@
         android:name="com.ks.guiadedarksoulsiii.ui.home.HomeFragment"
         android:label="@string/menu_home"
         tools:layout="@layout/fragment_home" />
-    <activity
-        android:id="@+id/nav_guia"
-        android:name="com.ks.guiadedarksoulsiii.Guia"
-        android:label="@string/menu_guia"
-        tools:layout="@layout/activity_guia" />
     <fragment
         android:id="@+id/nav_almas"
         android:name="com.ks.guiadedarksoulsiii.Almas"
@@ -35,5 +30,10 @@
         android:name="com.ks.guiadedarksoulsiii.conjuros"
         android:label="@string/menu_conjuros"
         tools:layout="@layout/fragment_conjuros" />
+    <fragment
+        android:id="@+id/nav_guia"
+        android:name="com.ks.guiadedarksoulsiii.guia"
+        android:label="@string/menu_guia"
+        tools:layout="@layout/fragment_guia" />
 
 </navigation>

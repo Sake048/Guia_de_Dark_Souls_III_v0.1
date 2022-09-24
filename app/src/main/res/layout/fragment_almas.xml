@@ -9,9 +9,13 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/text_margin"
-        android:textAppearance="?attr/textAppearanceListItem" />
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:textColor="#ffffff"
+        android:textSize="24sp"/>
 
     <TextView
+        android:textColor="#ffffff"
+        android:textSize="24sp"
         android:id="@+id/content"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

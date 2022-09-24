@@ -1,23 +1,132 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:id="@+id/constraintLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.main.PlaceholderFragment">
+    tools:context=".guia">
 
-    <TextView
-        android:id="@+id/section_label"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="@dimen/activity_horizontal_margin"
-        android:layout_marginTop="@dimen/activity_vertical_margin"
-        android:layout_marginEnd="@dimen/activity_horizontal_margin"
-        android:layout_marginBottom="@dimen/activity_vertical_margin"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/constraintLayout"
-        tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintTop_creator="1" />
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+        <com.google.android.material.tabs.TabLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_CementerioCeniza"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cementerio de Ceniza" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_SantuarioEnlace"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Santuario de Enlace" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_GranMuro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gran muro de Lothric" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_AsentamientoNM"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Asentamiento de no muertos" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_CaminoSacrificios"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Camino de los Sacrificios" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_TorreonFarron"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Torreon de Farron" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_CatedralOscuridad"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catedral de la Oscuridad" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_CatacumbasCarthus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Catacumbas de Carthus" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_LagoArdiente"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lago Ardiente" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_Irithyl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Irithyll del Valle Boreal" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_MazmorraIrithyll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mazmorrade Irithyll" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_CapitalProfanada"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Capital Profanada" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_AnorLondo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Anor Londo" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_CastilloLothric"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Castillo de Lothric" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_JardinReyCons"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jardin del Rey Consumido" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_TumbasOlvidadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tumbas Olvidadas" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_GranArchivo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gran Archivo" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_PicoArchidragon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pico del Archidragon" />
+
+            <com.google.android.material.tabs.TabItem
+                android:id="@+id/tab_HornoPrimeraLlama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Horno de la Primera Llama" />
+        </com.google.android.material.tabs.TabLayout>
+    </HorizontalScrollView>
+
+</FrameLayout>
