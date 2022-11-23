@@ -45,14 +45,14 @@ public class guia extends Fragment {
         viewPagerAdapter.addFragment(new TabCatacumbasCarthus(), "Catacumbas de Carthus");
         viewPagerAdapter.addFragment(new TabLagoArdiente(), "Lago Ardiente");
         viewPagerAdapter.addFragment(new TabIrithyl(),"Irithyll del Valle Boreal");
-        viewPagerAdapter.addFragment(new TabMazmorraIrithyll()"Mazmorra de Irithyll");
+        viewPagerAdapter.addFragment(new TabMazmorraIrithyll(),"Mazmorra de Irithyll");
         viewPagerAdapter.addFragment(new TabCapitalProfanada(), "Capital Profanada");
         viewPagerAdapter.addFragment(new TabAnorLondo(),"Anor Londo");
         viewPagerAdapter.addFragment(new TabCastilloLothric(),"Castillo de Lothric");
         viewPagerAdapter.addFragment(new TabJardinReyCons(),"Jardin del Rey Consumido");
         viewPagerAdapter.addFragment(new TabTumbasOlvidadas(),"Tumbas Olvidadas");
         viewPagerAdapter.addFragment(new TabGranArchivo(),"Gran Archivo");
-        viewPagerAdapter.addFragment(new TabPicoArchidragon()"Pico del Archidragon");
+        viewPagerAdapter.addFragment(new TabPicoArchidragon(),"Pico del Archidragon");
         viewPagerAdapter.addFragment(new TabHornoPrimeraLLama(),"Horno de la Primera LLama");
         viewPager.setAdapter(viewPagerAdapter);
         tabLayout.setupWithViewPager(viewPager);
