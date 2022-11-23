@@ -8,4 +8,6 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="rojo_pulento">#B80B06</color>
+    <color name="colorTabText">#FFFFFF</color>
+    <color name="colorTabTextWhiteTransparent">#99FFFFFF</color>
 </resources>

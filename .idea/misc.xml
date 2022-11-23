@@ -12,8 +12,26 @@
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_armaduras_anillos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_armas_escudos.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_conjuros.xml" value="0.36666666666666664" />
-        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_guia.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_guia.xml" value="0.1" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_home.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_anor_londo.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_asentamiento_n_m.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_camino_sacrificios.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_capital_profanada.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_castillo_lothric.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_catacumbas_carthus.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_catedral_oscura.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_cementerio_ceniza.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_gran_archivo.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_gran_muro.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_horno_primera_l_lama.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_irithyl.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_jardin_rey_cons.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_lago_ardiente.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_mazmorra_irithyll.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_santuario_enlace.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_torreon_farron.xml" value="0.35260416666666666" />
+        <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/fragment_tab_tumbas_olvidadas.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/layout/nav_header_main.xml" value="0.36666666666666664" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/menu/activity_main_drawer.xml" value="0.33" />
         <entry key="..\:/Users/User/AndroidStudioProjects/Guia_de_Dark_Souls_III_v0.2/app/src/main/res/menu/main.xml" value="0.18802083333333333" />
