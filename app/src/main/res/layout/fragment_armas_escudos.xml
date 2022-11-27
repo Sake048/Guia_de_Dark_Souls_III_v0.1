@@ -7,13 +7,14 @@
     android:layout_height="match_parent"
     tools:context=".armas_escudos" >
 
-    <ScrollView
+    <TextView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:text="Proximamente..."
+        android:textSize="30dp"
+        android:fontFamily="@font/delight_snowy"
+        android:textColor="@color/black"
+        />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical" />
-    </ScrollView>
+
 </FrameLayout>
