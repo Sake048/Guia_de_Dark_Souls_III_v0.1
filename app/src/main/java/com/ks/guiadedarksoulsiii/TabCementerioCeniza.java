@@ -1,5 +1,6 @@
 package com.ks.guiadedarksoulsiii;
 
+import android.graphics.Typeface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -15,6 +16,8 @@ import android.widget.ListView;
 import java.sql.Array;
 
 public class TabCementerioCeniza extends Fragment{
+
+    private Typeface font;
 
     public TabCementerioCeniza() {
     }
@@ -49,11 +52,13 @@ public class TabCementerioCeniza extends Fragment{
                 "al matarlo podras descansar en la hoguera Iudex Gundyr"
                 ,"Abre el porton del fondo y examina el cadaver junto a las lapidas para conseguir una Espada recta rota, ve por el camino inferior para encontrar" +
                 " un cadaver al fondo que contiene un Hueso de regreso"
+                ,"Ahora ve hasta la cima, entra en el edificio para llegar a la siguiente zona, Santuario de Enlace"
         };
 
-        ListView listView=(ListView) view.findViewById(R.id.listaCementerio);
+        ListView list=(ListView) view.findViewById(R.id.listaCementerio);
         ArrayAdapter<String> adapter=new ArrayAdapter<>(getActivity(),android.R.layout.simple_list_item_1,guia1);
 
-        listView.setAdapter(adapter);
+        list.setAdapter(adapter);
+
     }
 }
