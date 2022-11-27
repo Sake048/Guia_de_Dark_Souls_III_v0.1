@@ -1,6 +1,5 @@
 package com.ks.guiadedarksoulsiii;
 
-import android.graphics.Typeface;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -13,11 +12,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
-import java.sql.Array;
 
 public class TabCementerioCeniza extends Fragment{
-
-    private Typeface font;
 
     public TabCementerioCeniza() {
     }
