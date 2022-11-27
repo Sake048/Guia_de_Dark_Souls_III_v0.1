@@ -1,60 +1,55 @@
 package com.ks.guiadedarksoulsiii;
 
-import android.os.Bundle;
-
-
-import androidx.fragment.app.Fragment;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentPagerAdapter;
 import androidx.viewpager.widget.ViewPager;
-import android.view.LayoutInflater;
+
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
+import android.os.Bundle;
 import android.view.View;
 import android.view.ViewGroup;
+
 import com.google.android.material.tabs.TabLayout;
 
-
-public class guia extends Fragment {
+public class guia extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private ViewPagerAdapter viewPagerAdapter;
-
-    public guia() {
-
-    }
-
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setUpViewPagerAdapter();
-    }
+        setContentView(R.layout.activity_guia);
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_guia, container, false);
-    }
+        getWindow().setStatusBarColor(Color.parseColor("#B80B06"));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#B80B06")));
 
-    private void setUpViewPagerAdapter(){
-        viewPagerAdapter.addFragment(new TabCementerioCeniza(), "Cementerio de Ceniza");
-        viewPagerAdapter.addFragment(new TabSantuarioEnlace(), "Santuario de Enlace");
-        viewPagerAdapter.addFragment(new TabGranMuro(), "Gran muro de Lothric");
-        viewPagerAdapter.addFragment(new TabAsentamientoNM(), "Asentamiento de no muertos");
-        viewPagerAdapter.addFragment(new TabCaminoSacrificios(), "Camino de los Sacrificios");
-        viewPagerAdapter.addFragment(new TabTorreonFarron(), "Torreon de Farron");
-        viewPagerAdapter.addFragment(new TabCatedralOscuridad(), "Catedral de la Oscuridad");
-        viewPagerAdapter.addFragment(new TabCatacumbasCarthus(), "Catacumbas de Carthus");
-        viewPagerAdapter.addFragment(new TabLagoArdiente(), "Lago Ardiente");
-        viewPagerAdapter.addFragment(new TabIrithyl(),"Irithyll del Valle Boreal");
-        viewPagerAdapter.addFragment(new TabMazmorraIrithyll(),"Mazmorra de Irithyll");
-        viewPagerAdapter.addFragment(new TabCapitalProfanada(), "Capital Profanada");
-        viewPagerAdapter.addFragment(new TabAnorLondo(),"Anor Londo");
-        viewPagerAdapter.addFragment(new TabCastilloLothric(),"Castillo de Lothric");
-        viewPagerAdapter.addFragment(new TabJardinReyCons(),"Jardin del Rey Consumido");
-        viewPagerAdapter.addFragment(new TabTumbasOlvidadas(),"Tumbas Olvidadas");
-        viewPagerAdapter.addFragment(new TabGranArchivo(),"Gran Archivo");
-        viewPagerAdapter.addFragment(new TabPicoArchidragon(),"Pico del Archidragon");
-        viewPagerAdapter.addFragment(new TabHornoPrimeraLLama(),"Horno de la Primera LLama");
-        viewPager.setAdapter(viewPagerAdapter);
+        tabLayout = findViewById(R.id.tabLayout);
+        viewPager = findViewById(R.id.viewpager);
+
         tabLayout.setupWithViewPager(viewPager);
+
+        VPAdapter vpAdapter = new VPAdapter(getSupportFragmentManager(), FragmentPagerAdapter.BEHAVIOR_RESUME_ONLY_CURRENT_FRAGMENT);
+        vpAdapter.addFragment(new TabCementerioCeniza(), "Cementerio de Ceniza");
+        vpAdapter.addFragment(new TabSantuarioEnlace(),"Santuario de Enlace");
+        vpAdapter.addFragment(new TabGranMuro(),"Gran muro de Lothric");
+        vpAdapter.addFragment(new TabAsentamientoNM(),"Asentamiento de no muertos");
+        vpAdapter.addFragment(new TabCaminoSacrificios(),"Camino de los Sacrificios");
+        vpAdapter.addFragment(new TabTorreonFarron(),"Torreon de Farron");
+        vpAdapter.addFragment(new TabCatedralOscuridad(),"Catedral de la Osucuridad");
+        vpAdapter.addFragment(new TabCatacumbasCarthus(),"Catacumbas de Carthus");
+        vpAdapter.addFragment(new TabLagoArdiente(), "Lago Ardiente");
+        vpAdapter.addFragment(new TabIrithyl(),"Irithyll del Valle Boreal");
+        vpAdapter.addFragment(new TabMazmorraIrithyll(),"Mazmorra de Irithyll");
+        vpAdapter.addFragment(new TabCapitalProfanada(),"Capital Profanada");
+        vpAdapter.addFragment(new TabAnorLondo(),"Anor Londo");
+        vpAdapter.addFragment(new TabCastilloLothric(),"Castillo de Lothric");
+        vpAdapter.addFragment(new TabJardinReyCons(),"Jardin del Rey Consumido");
+        vpAdapter.addFragment(new TabTumbasOlvidadas(),"Tumbas Olvidadas");
+        vpAdapter.addFragment(new TabGranArchivo(),"Gran Archivo");
+        vpAdapter.addFragment(new TabPicoArchidragon(),"Pico del Archidragon");
+        vpAdapter.addFragment(new TabHornoPrimeraLLama(),"Horno de la Primera LLama");
+        viewPager.setAdapter(vpAdapter);
     }
 }
