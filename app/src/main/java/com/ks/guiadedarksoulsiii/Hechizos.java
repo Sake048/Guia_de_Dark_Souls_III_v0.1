@@ -2,6 +2,8 @@ package com.ks.guiadedarksoulsiii;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Bundle;
 import android.widget.ListView;
 
@@ -18,6 +20,10 @@ public class Hechizos extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_hechizos);
+
+        getWindow().setStatusBarColor(Color.parseColor("#B80B06"));
+        getSupportActionBar().setBackgroundDrawable(new ColorDrawable(Color.parseColor("#B80B06")));
+        getSupportActionBar().setTitle("Hechizos");
 
         mListView = findViewById(R.id.listView);
 
