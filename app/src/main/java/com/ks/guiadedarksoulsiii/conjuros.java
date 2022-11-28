@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 public class conjuros extends AppCompatActivity {
 
@@ -19,5 +20,11 @@ public class conjuros extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void Milagros(View view){
+        Toast.makeText(conjuros.this,"Proximamente...",Toast.LENGTH_SHORT).show();
+    }
 
+    public void Piromancias(View view){
+        Toast.makeText(conjuros.this,"Proximamente...",Toast.LENGTH_SHORT).show();
+    }
 }
