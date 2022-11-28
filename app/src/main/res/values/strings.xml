@@ -107,6 +107,9 @@
     <string name="title_activity_guia">Guia</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-    <!-- TODO: Remove or change this placeholder text -->
+    <string name="IB">imageButton</string>
+    <string name="hechizos">Hechizos</string>
+    <string name="milagros">Milagros</string>
+    <string name="piromancias">Piromancias</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

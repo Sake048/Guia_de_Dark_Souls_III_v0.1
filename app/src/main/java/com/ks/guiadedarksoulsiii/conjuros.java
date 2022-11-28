@@ -1,31 +1,23 @@
 package com.ks.guiadedarksoulsiii;
 
+import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
-
-import androidx.fragment.app.Fragment;
-
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
-public class conjuros extends Fragment {
-
-
-    public conjuros() {
-
-    }
-
+public class conjuros extends AppCompatActivity {
 
     @Override
-    public void onCreate(Bundle savedInstanceState) {
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        setContentView(R.layout.activity_conjuros);
     }
 
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container,
-                             Bundle savedInstanceState) {
-
-        return inflater.inflate(R.layout.fragment_conjuros, container, false);
+    public void Hechizos(View view){
+        Intent intent = new Intent(this, Hechizos.class);
+        startActivity(intent);
     }
+
+
 }

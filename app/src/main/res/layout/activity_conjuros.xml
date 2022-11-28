@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".conjuros">
+
+    <ImageButton
+        android:id="@+id/ibtnHechizos"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/IB"
+        android:onClick="Hechizos"
+        android:src="@drawable/hechizos"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.083"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <ImageButton
+        android:id="@+id/ibtnMilagros"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/IB"
+        android:src="@drawable/milagros"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <ImageButton
+        android:id="@+id/ibtnPiromancias"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="@string/IB"
+        android:src="@drawable/piromancias"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hechizos"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/delight_snowy"
+        app:layout_constraintBottom_toTopOf="@+id/ibtnHechizos"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.135"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.862" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/milagros"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/delight_snowy"
+        app:layout_constraintBottom_toTopOf="@+id/ibtnMilagros"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.858" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/piromancias"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:fontFamily="@font/delight_snowy"
+        app:layout_constraintBottom_toTopOf="@+id/ibtnPiromancias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.872"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

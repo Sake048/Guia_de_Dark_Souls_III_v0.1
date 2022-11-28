@@ -20,15 +20,15 @@
         android:name="com.ks.guiadedarksoulsiii.armas_escudos"
         android:label="@string/menu_armas_escudos"
         tools:layout="@layout/fragment_armas_escudos" />
-    <fragment
-        android:id="@+id/nav_conjuros"
-        android:name="com.ks.guiadedarksoulsiii.conjuros"
-        android:label="@string/menu_conjuros"
-        tools:layout="@layout/fragment_conjuros" />
     <activity
         android:id="@+id/nav_guia"
         android:name="com.ks.guiadedarksoulsiii.guia"
         android:label="@string/title_activity_guia"
         tools:layout="@layout/activity_guia" />
+    <activity
+        android:id="@+id/nav_conjuros"
+        android:name="com.ks.guiadedarksoulsiii.conjuros"
+        android:label="activity_conjuros"
+        tools:layout="@layout/activity_conjuros" />
 
 </navigation>

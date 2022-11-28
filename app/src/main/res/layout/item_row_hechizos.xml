@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="96dp"
+        android:layout_height="96dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtNombre"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageView"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtObtencion"
+        android:text="Obtencion: "
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/txtNombre"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtEspacios"
+        android:text="Espacios: "
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/txtObtencion"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtInteligenciaN"
+        android:text="Inteligencia Necesaria: "
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/txtEspacios"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtCostePC"
+        android:text="Coste de PC: "
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/imageView"
+        android:layout_below="@+id/txtInteligenciaN"/>
+
+</RelativeLayout>
