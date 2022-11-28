@@ -12,7 +12,7 @@
         android:text="Proximamente..."
         android:textSize="30dp"
         android:fontFamily="@font/delight_snowy"
-        android:textColor="@color/black"
+        android:textStyle="bold"
         />
 
 </FrameLayout>
